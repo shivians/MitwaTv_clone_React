@@ -1,0 +1,54 @@
+.video-play-container .title{
+    color: white;
+    font-size: 18px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+
+}
+.video-play-container .rating{
+    color: white;
+    font-size: 14px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+
+}
+.video-play-container .description{
+    color: white;
+    font-size: 14px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+}
+.video-play-container .suggestion{
+    color: white;
+    font-size: 18px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+}
+.suggestion-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.suggestion-wrap .card{
+    width: 25%;
+    height: 180px;
+    background-color: black;
+   
+   
+}
+.suggestion-wrap .card img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 15px;
+
+    
+}
+.rating .fa-solid{
+  color: rgb(247, 108, 108);
+}
+.rating span{
+  margin-right: 5px;
+}

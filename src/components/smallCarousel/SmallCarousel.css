@@ -1,0 +1,45 @@
+.carousel-container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.carousel-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+
+}
+.carousel-container .slick-track .slick-slide {
+  height: 200px;
+  padding: 0px 12px;
+}
+.carousel-container  .slick-next{
+  top: 41%;
+  margin-right: -60px;
+  
+}
+.carousel-container .slick-prev{
+  top: 41%;
+  margin-left: -50px;
+  
+  
+}
+.carousel-container .slick-track {
+  margin-left:0;
+}
+.carousel-container h4{
+  font-size: 22px;
+ font-weight: 400;
+ font-family: roboto,sans-serif;
+ color: white;
+}
+.carousel-container .slick-prev:before{
+  font-size: 30px;
+}
+.carousel-container .slick-next:before{
+  font-size: 30px;
+
+}
+

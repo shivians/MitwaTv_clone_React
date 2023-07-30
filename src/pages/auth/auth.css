@@ -1,0 +1,188 @@
+.auth-container{
+    height: 100vh;
+    width: 100%;
+   
+}
+.form-wrapper{
+  width: 400px;
+}
+.login-card {
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  text-align: center;
+}
+.head-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.head-text .badge{
+    font-weight: 500;
+    font-family: roboto, sans-serif;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.head-text .badge a{
+    text-decoration: none;
+    color: white;
+}
+.head-text p {
+  color: black;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+}
+.auth-container .btn-group {
+  /* width: 100%; */
+  text-align: center;
+}
+.btn-group .btn {
+  margin-right: 8px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+  width: 100px;
+  text-align: center;
+ 
+}
+.input-field p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+  color: black;
+  margin: 0px 0px 16px;
+}
+.input-field p a:hover{
+  color: black;
+}
+
+.input-field p a {
+  text-decoration: none;
+}
+.input-field .form-control {
+  margin-bottom: 10px;
+}
+.input-field .f-password{
+  text-align: right;
+}
+.input-field input {
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+}
+.input-field button {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+  color: white;
+  padding: 10px;
+  background-color: #008080 !important;
+}
+.footer-item button {
+  width: 100%;
+  padding: 20px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+  border-radius: none;
+}
+
+/* country code select */
+
+form .form-select{
+  width: 250px;
+ 
+}
+form .form-select option{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+  color: black;
+
+}
+.auth-container .bottom-link{
+  display: flex;
+  justify-content: space-around;
+}
+.auth-container .bottom-link p a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+}
+.verify-otp p{
+  text-align: left;
+  color: rgb(101, 99, 99);
+  font-size: 12px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+}
+.verify-otp p span{
+  cursor: pointer;
+}
+
+.resend-otp{
+  background-color: rgb(243, 153, 19);
+  text-align: center;
+  padding: 3px;
+  border-radius:5px;
+  cursor: pointer;
+}
+.resend-btn{
+text-align: left;
+}
+.resend-btn .btn{
+  background-color: rgb(8, 93, 139) !important;
+  padding: 2px !important;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+}
+.password-reset-wrapper .bottom-link{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+
+}
+.password-reset-wrapper .bottom-link
+p a{
+  text-decoration: none;
+}
+
+/* .password-reset component css */
+.head-text h5 span a{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+  text-decoration: none;
+ 
+}
+.head-text h5 .fa-solid{
+  font-size: 14px;
+  color: rgb(61, 56, 56);
+  margin-right: 5px;
+  
+}
+.head-text h5 .with-otp a{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: roboto, sans-serif;
+  text-decoration: none;
+}
+.head-text h5 .with-otp a:hover{
+  color: #1e3aed;
+}
+
+form .form-control:focus{
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+form .form-select{
+  border-color: #d3d3d3;
+  box-shadow: none !important;
+}
+
+

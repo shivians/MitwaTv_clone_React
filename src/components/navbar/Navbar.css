@@ -1,0 +1,95 @@
+.navbar-nav li .nav-link {
+  color: white;
+  font-size: 16px;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:focus {
+  border-bottom: 3px solid red;
+}
+
+.navbar {
+  background-color: black;
+  padding: 0 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: inherit;
+  width: 100%;
+}
+
+.navbar-brand {
+  width: auto !important;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+.navbar-toggler-icon {
+  background-color: white !important;
+}
+.nav-item .fa-circle-user {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 3px;
+}
+.logout-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.navbar-nav .dropdown .dropdown-menu {
+  padding: 0;
+}
+.navbar-nav .dropdown-item a:hover {
+  background-color: rgb(32, 137, 202);
+}
+.navbar-nav .dropdown-item {
+  padding: 10px;
+}
+.language-modal .modal-btn {
+  padding: 0px !important;
+  margin: 0 !important;
+  font-size: 25px !important;
+  color: red;
+}
+.language-modal .select-languge {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: auto;
+}
+.select-languge .form-check {
+  width: 25%;
+}
+.modal-header .modal-title {
+  color: rgb(43, 42, 42);
+  font-size: 20px;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+}
+.modal-body p {
+  color: black;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+}
+.select-languge .form-check-input {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.select-languge .form-check-label {
+  color: black;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+  font-weight: 400;
+  padding: 3px;
+}
+.modal-footer button {
+  color: white;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+}

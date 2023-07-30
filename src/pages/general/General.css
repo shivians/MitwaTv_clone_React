@@ -1,0 +1,19 @@
+.faq-main-block ul{
+    display: flex;
+    list-style: none;
+
+}
+.main-wrapper{
+    background-color: rgb(235, 234, 234);
+}
+.info{
+    background-color: white;
+    border: 1px solid rgb(129, 126, 126);
+}
+.info p{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: roboto,sans-serif;
+
+}

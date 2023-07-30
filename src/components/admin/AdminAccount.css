@@ -1,0 +1,69 @@
+.admin-info .avtar-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+.admin-info .avtar-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.admin-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.admin-container.jumbotron {
+  height: 300px;
+}
+
+.admin-info {
+  height: 300px;
+  background-color: black;
+  
+}
+.media-detail button {
+  font-size: 10px !important;
+  font-weight: bold !important;
+  box-shadow: transparent;
+  color: #000 !important;
+  border: 1.3px solid black;
+  border-radius: 30px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  
+  
+}
+.media-detail button:hover{
+  background-color: rgb(33, 32, 32);
+  color: white !important;
+ 
+}
+.admin-details p a{
+  text-decoration: none;
+  font-size: 12px;
+  font-family: roboto,sans-serif;
+  font-weight: 400;
+}
+.admin-details h4{
+  font-family: roboto,sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+
+}
+.admin-details p{
+  font-family: roboto,sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+.admin-details .text-verify{
+  font-family: roboto,sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: green;
+  margin-left: 5px;
+
+}
+

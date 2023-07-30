@@ -1,0 +1,80 @@
+.detail-image {
+  width: 100%;
+  height: 60vh;
+}
+.detail-image img {
+  width: 100%;
+  height: 100%;
+}
+.detail-page .movie-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+}
+.movie-titleDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.movie-titleDiv ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie-titleDiv ul li {
+  margin-right: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+}
+
+ul li .play-icon .fa-solid {
+  color: rgb(34, 171, 230);
+  font-size: 20px;
+}
+.play-icon .play-text a{
+  color: white;
+  text-decoration: none;
+}
+
+.cast-info span {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: roboto, sans-serif;
+}
+.cast-info ul {
+  list-style: none;
+}
+.cast-info ul li {
+  color: white;
+  font-size: 12px;
+  font-family: roboto, sans-serif;
+}
+.director-info span {
+  color: white;
+}
+.director-info p {
+  color: white;
+}
+.movie-rating span{
+color: white;
+margin-right: 10px;
+}
+.movie-rating .fa-solid{
+    color: rgb(247, 108, 108);
+}
+.media-desc p {
+  color: white;
+  font-size: 14px;
+}
+.slider-items .carousel-img {
+  width: 169px;
+  height: 177px;
+}
+.carousel-img img {
+  width: 100%;
+  height: 100%;
+}

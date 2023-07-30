@@ -1,0 +1,10 @@
+.sample-slide .slick-track .slick-slide {
+  /* height:177px ;
+    width:169 ;   */
+  height: 200px;
+  padding: 0px 12px;
+}
+
+.carousel-img span {
+  color: white;
+}
